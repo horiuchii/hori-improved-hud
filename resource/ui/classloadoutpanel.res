@@ -318,7 +318,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"font"			"FontStoreOriginalPrice"
-		"labelText"		"#Store_Zoom"
+		"labelText"		"Zoom"
 		"textAlignment"	"west"
 		"xpos"			"c-255"
 		"ypos"			"70"
