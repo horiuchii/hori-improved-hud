@@ -284,7 +284,7 @@
 		"labelText"		"LMB:"
 		"textAlignment"	"east"
 		"xpos"			"c-335"
-		"ypos"			"60"
+		"ypos"			"45"
 		"zpos"			"15"
 		"wide"			"75"
 		"tall"			"10"
@@ -296,9 +296,9 @@
 		"labelText"		"Rotate"
 		"textAlignment"	"west"
 		"xpos"			"c-255"
-		"ypos"			"60"
+		"ypos"			"45"
 		"zpos"			"15"
-		"wide"			"75"
+		"wide"			"55"
 		"tall"			"10"
 	}
 	
@@ -309,7 +309,7 @@
 		"labelText"		"RMB:"
 		"textAlignment"	"east"
 		"xpos"			"c-335"
-		"ypos"			"70"
+		"ypos"			"55"
 		"zpos"			"15"
 		"wide"			"75"
 		"tall"			"10"
@@ -321,9 +321,9 @@
 		"labelText"		"Zoom"
 		"textAlignment"	"west"
 		"xpos"			"c-255"
-		"ypos"			"70"
+		"ypos"			"55"
 		"zpos"			"15"
-		"wide"			"75"
+		"wide"			"55"
 		"tall"			"10"
 	}
 	
@@ -334,7 +334,7 @@
 		"labelText"		"Shift:"
 		"textAlignment"	"east"
 		"xpos"			"c-335"
-		"ypos"			"80"
+		"ypos"			"65"
 		"zpos"			"15"
 		"wide"			"75"
 		"tall"			"10"
@@ -346,9 +346,9 @@
 		"labelText"		"#TR_Soldier_MoveTitle"
 		"textAlignment"	"west"
 		"xpos"			"c-255"
-		"ypos"			"80"
+		"ypos"			"65"
 		"zpos"			"15"
-		"wide"			"75"
+		"wide"			"55"
 		"tall"			"10"
 	}
 	
@@ -358,8 +358,8 @@
 		"font"			"FontStoreOriginalPrice"
 		"labelText"		"Ctrl:"
 		"textAlignment"	"east"
-		"xpos"			"c-275"
-		"ypos"			"70"
+		"xpos"			"c-335"
+		"ypos"			"75"
 		"zpos"			"15"
 		"wide"			"75"
 		"tall"			"10"
@@ -370,10 +370,10 @@
 		"font"			"FontStoreOriginalPrice"
 		"labelText"		"Spotlight"
 		"textAlignment"	"west"
-		"xpos"			"c-195"
-		"ypos"			"70"
+		"xpos"			"c-255"
+		"ypos"			"75"
 		"zpos"			"15"
-		"wide"			"75"
+		"wide"			"55"
 		"tall"			"10"
 	}
 	
@@ -383,8 +383,8 @@
 		"font"			"FontStoreOriginalPrice"
 		"labelText"		"Alt:"
 		"textAlignment"	"east"
-		"xpos"			"c-275"
-		"ypos"			"80"
+		"xpos"			"c-335"
+		"ypos"			"85"
 		"zpos"			"15"
 		"wide"			"75"
 		"tall"			"10"
@@ -395,11 +395,117 @@
 		"font"			"FontStoreOriginalPrice"
 		"labelText"		"Rotate (Roll)"
 		"textAlignment"	"west"
-		"xpos"			"c-195"
-		"ypos"			"80"
+		"xpos"			"c-255"
+		"ypos"			"85"
 		"zpos"			"15"
-		"wide"			"75"
+		"wide"			"55"
 		"tall"			"10"
+	}
+	
+	"RedButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"RedButton"
+		"xpos"				"c-177"
+		"ypos"				"48"
+		"zpos"				"12"
+		"wide"				"35"
+		"tall"				"21.875"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"sv_cheats 1;r_skin 0"
+		
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"scaleImage"		"1"
+		
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
+		
+		"paintbackground"	"0"
+		"paintbackgroundtype"	"0"
+		"defaultBgColor_Override"	"0 0 0 255"
+		
+		"paintborder"		"0"
+		
+		"image_drawcolor"		"255 255 255 77"
+		"image_armedcolor"		"255 255 255 128"
+		"image_selectedcolor"	"255 255 255 255"
+
+		"image_default"		"store/store_redteam"
+		"image_armed"		"store/store_redteam"
+		"image_selected"	"store/store_redteam"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"35"
+			"tall"			"35"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"store/store_redteam"
+		}		
+	}
+
+	"BlueButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"BlueButton"
+		"xpos"				"c-177"
+		"ypos"				"70"
+		"zpos"				"12"
+		"wide"				"35"
+		"tall"				"21.875"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"sv_cheats 1;r_skin 1"
+		
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"scaleImage"		"1"
+		
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
+		
+		"paintbackground"	"0"
+		"paintbackgroundtype"	"0"
+		"defaultBgColor_Override"	"0 0 0 255"
+		
+		"paintborder"		"0"
+		
+		"image_drawcolor"		"255 255 255 77"
+		"image_armedcolor"		"255 255 255 128"
+		"image_selectedcolor"	"255 255 255 255"
+
+		"image_default"		"store/store_blueteam"
+		"image_armed"		"store/store_blueteam"
+		"image_selected"	"store/store_blueteam"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"35"
+			"tall"			"35"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"store/store_blueteam"
+		}		
 	}
 	
 	"mouseoveritempanel"

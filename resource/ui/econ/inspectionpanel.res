@@ -14,6 +14,11 @@
 		"image"			"item_carousel_bg"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
+		
+		"consume_mode"
+		{
+			"xpos"		"cs-0.5"
+		}
 	}
 
 	"SidePanelBackground"
@@ -30,6 +35,19 @@
 		"scaleimage"	"1"
 		"image"			"replay/thumbnails/loadout_side_gradient"
 		"tileImage"		"1"
+		
+		"consume_mode"
+		{
+			"wide"									"0"
+		}
+		"fixed_item"
+		{
+			"wide"									"0"
+		}
+		"fixed_paintkit"
+		{
+			"wide"									"0"
+		}
 	}
 	"SidePanelLine"
 	{
@@ -44,6 +62,19 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/loadout_solid_line_vertical"
 		"scaleImage"	"1"
+		
+		"consume_mode"
+		{
+			"wide"									"0"
+		}
+		"fixed_item"
+		{
+			"wide"									"0"
+		}
+		"fixed_paintkit"
+		{
+			"wide"									"0"
+		}
 	}
 
 	"CaratLabel"
@@ -167,6 +198,10 @@
 			"inventory_image_type"	"1"
 			"continued_velocity"	"1"
 		}
+		"consume_mode"
+		{
+			"xpos"		"cs-0.5"
+		}
 	}
 
 	"ModelInspectionPanel"
@@ -178,6 +213,11 @@
 		"wide"			"o1.5"
 		"tall"			"p0.8"
 		"visible"		"1"
+
+		"consume_mode"
+		{
+			"xpos"		"cs-0.5"
+		}
 
 		"proportionaltoparent"	"1"
 
@@ -244,6 +284,12 @@
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
 		"xpos"				"cs0.55"
+		
+		"consume_mode"
+		{
+			"xpos"		"cs-0.5"
+		}
+		
 		"ypos"				"p.7-16"
 		"zpos"				"100"
 		"wide"				"60"
@@ -367,6 +413,7 @@
 		}
 		"consume_mode"
 		{
+			"xpos"		"cs-0.5"
 			"border"		"ReplayHighlightBorder"
 		}
 
