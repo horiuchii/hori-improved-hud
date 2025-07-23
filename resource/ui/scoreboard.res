@@ -16,7 +16,7 @@
 		"medal_width"		"28"
 		"medal_column_width" "18"
 		"avatar_width"		"28"
-		"spacer"			"25"
+		"spacer"			"8"
 		"name_width"		"118"
 		"nemesis_width"		"15"
 		"class_width"		"15"
